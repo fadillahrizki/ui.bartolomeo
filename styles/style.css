@@ -7,7 +7,7 @@
 .navbar {
   position: -webkit-sticky;
   position: sticky;
-  z-index: 1;
+  z-index: 10;
   top: 0;
 }
 
@@ -165,5 +165,27 @@ p {
 .footer {
   background-color: #1a284d;
   color: #fff;
+}
+
+.title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  z-index: 5;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  background-color: #ff513f;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */

@@ -126,3 +126,22 @@ p{
     background-color: $secondaryColor;
     color:$textPrimary;
 }
+
+.title{
+    width:fit-content;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    z-index: 5;
+    &::before{
+        content:'';
+        position: absolute;
+        background-color: $thirdColor;
+        border-radius:50%;
+        top:0;
+        left:0;
+        width:20px;
+        height: 20px;
+        z-index: -1;
+    }
+}

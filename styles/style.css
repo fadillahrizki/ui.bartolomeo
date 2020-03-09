@@ -1,0 +1,169 @@
+@media (min-width: 768px) {
+  .navbar {
+    height: 100px;
+  }
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-item.active {
+  color: #fff;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  border: none;
+}
+
+.btn-primary {
+  background-color: #213262 !important;
+}
+
+.btn-primary:hover {
+  -webkit-box-shadow: 3px 3px 5px #213262 !important;
+          box-shadow: 3px 3px 5px #213262 !important;
+}
+
+.btn-secondary {
+  background-color: #1a284d !important;
+}
+
+.btn-secondary:hover {
+  -webkit-box-shadow: 3px 3px 5px #1a284d !important;
+          box-shadow: 3px 3px 5px #1a284d !important;
+}
+
+.bg-primary {
+  background-color: #213262 !important;
+}
+
+.bg-secondary {
+  background-color: #1a284d !important;
+}
+
+.bg-third {
+  background-color: #ff513f !important;
+}
+
+.bg-fourth {
+  background-color: #f2f5fa !important;
+}
+
+.text-primary {
+  color: #fff !important;
+}
+
+.text-secondary {
+  color: #ff513f !important;
+}
+
+.text-third {
+  color: #596a94 !important;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+}
+
+.jumbotron {
+  background-color: #213262 !important;
+  color: #fff !important;
+  text-align: center;
+  margin: 0;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jumbotron h2 {
+  font-size: 50px;
+}
+
+.jumbotron span {
+  color: #ff513f;
+  font-weight: bold;
+}
+
+.jumbotron h4 {
+  font-size: 30px;
+}
+
+.jumbotron .btn {
+  background: #1a284d !important;
+  font-size: 16px;
+  padding: 1em 2em;
+  border-radius: 2em;
+  margin: 1em 0;
+}
+
+.about {
+  background-color: #f2f5fa !important;
+}
+
+.about h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #213262;
+}
+
+.about h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a284d;
+  line-height: 50px;
+}
+
+.about span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #596a94;
+}
+
+.about p {
+  color: #1a284d;
+  font-size: 16px;
+}
+
+.contact {
+  background-color: #213262;
+  color: #fff;
+}
+
+.footer {
+  background-color: #1a284d;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

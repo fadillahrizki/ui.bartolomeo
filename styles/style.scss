@@ -1,0 +1,128 @@
+@import './variables';
+@import './header';
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.btn{
+    border:none;
+        
+    
+}
+
+.btn-primary{
+    background-color: $primaryColor !important;
+
+    &:hover{
+        box-shadow: 3px 3px 5px $primaryColor !important;
+    }
+}
+
+.btn-secondary{
+    background-color: $secondaryColor !important;
+
+    &:hover{
+        box-shadow: 3px 3px 5px $secondaryColor !important;
+    }
+}
+
+.bg-primary{
+    background-color: $primaryColor !important;
+}
+
+.bg-secondary{
+    background-color: $secondaryColor !important;
+}
+
+.bg-third{
+    background-color: $thirdColor !important;
+}
+
+.bg-fourth{
+    background-color: $fourthColor !important;
+}
+
+.text-primary{
+    color: $textPrimary !important;
+}
+
+.text-secondary{
+    color: $textSecondary !important;
+}
+.text-third{
+    color: $textThird !important;
+}
+
+p{
+    font-family: 'Karla', sans-serif;
+}
+
+.jumbotron{
+    background-color: $primaryColor !important;
+    color:$textPrimary !important;
+    text-align: center;
+    margin: 0;
+    height:90vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2{
+        font-size: 50px;
+    }
+    span{
+        color: $textSecondary;
+        font-weight: bold;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .btn{
+        background: $secondaryColor !important;
+        font-size: 16px;
+        padding:1em 2em;
+        border-radius:2em;
+        margin:1em 0;
+    }
+}
+
+.about{
+    background-color: $fourthColor !important;
+    h2{
+        font-size: 30px;
+        font-weight: bold;
+        color: $primaryColor;
+    }
+    h4{
+        font-size: 24px;
+        font-weight: bold;
+        color: $secondaryColor;
+        line-height: 50px;
+    }
+    span{
+        font-size: 16px;
+        font-weight: bold;
+        color: $textThird;
+    }
+    p{
+        color:$secondaryColor;
+        font-size: 16px;
+    }
+    
+}
+
+.contact{
+    background-color: $primaryColor;
+    color: $textPrimary;
+
+}
+
+.footer{
+    background-color: $secondaryColor;
+    color:$textPrimary;
+}
